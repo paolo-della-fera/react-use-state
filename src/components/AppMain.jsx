@@ -14,7 +14,7 @@ export default function AppMain({ languages }) {
                 {
                     languages.map(language => (
 
-                        <AppButton key={language.id} title={language.title} onClick={() => setSelected(language)} />
+                        <AppButton key={language.id} title={language.title} onClick={() => setSelected(language)} isActive={selected?.id === language.id}/>
 
                     ))
                 }
