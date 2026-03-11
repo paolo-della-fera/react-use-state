@@ -3,7 +3,7 @@ export default function AppHeader(){
 
   return (
     <> 
-      <h1>Learn Web development</h1>
+      <h1 className="m-2">Learn Web development</h1>
     </>
   )
 }
